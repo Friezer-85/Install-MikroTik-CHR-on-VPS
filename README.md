@@ -5,7 +5,7 @@ Easy way for install Mikrotik’s Cloud Hosted Router on any Cloud VM
 
 ```bash
   1:
-  VPS with VNC access (Preferably Ubuntu > 20.04)
+  VPS with VNC access (Preferably Debian 12)
   2:
   This network information is required:
   IP Address - Net Mask - IP Gateway
@@ -32,16 +32,16 @@ ip route list | grep default | cut -d' ' -f 3
 ```
 ## Installation
 
-For MikroTik 6.48.6
+For MikroTik 7.17 Classic
 
 ```bash
-  bash -c "$(curl -L https://raw.githubusercontent.com/azadrahorg/Install-MikroTik-CHR-on-VPS/main/mik-6486.sh)"
+  bash -c "$(curl -L https://raw.githubusercontent.com/Friezer-85/Install-MikroTik-CHR-on-VPS/main/install.sh)"
 ```
 
-For MikroTik 7.10.2
+For MikroTik 7.17 Elseif Version
 
 ```bash
-  bash -c "$(curl -L https://raw.githubusercontent.com/azadrahorg/Install-MikroTik-CHR-on-VPS/main/mik78.sh)"
+  bash -c "$(curl -L https://raw.githubusercontent.com/Friezer-85/Install-MikroTik-CHR-on-VPS/main/elseif.sh)"
 ```
 
 After install be sure to turn off the server and turn on again
