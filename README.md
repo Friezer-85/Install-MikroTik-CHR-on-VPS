@@ -32,13 +32,19 @@ ip route list | grep default | cut -d' ' -f 3
 ```
 ## Installation
 
-For MikroTik 7.17 Classic
+For MikroTik 7.17 Classic (untested, supposed working)
 
 ```bash
   bash -c "$(curl -L https://raw.githubusercontent.com/Friezer-85/Install-MikroTik-CHR-on-VPS/main/install.sh)"
 ```
 
-For MikroTik 7.17 Elseif Version
+For MikroTik 6.49.17 Elseif Version (tested, working)
+
+```bash
+  bash -c "$(curl -L https://raw.githubusercontent.com/Friezer-85/Install-MikroTik-CHR-on-VPS/main/elseif649.sh)"
+```
+
+For MikroTik 7.17 Elseif Version (untested)
 
 ```bash
   bash -c "$(curl -L https://raw.githubusercontent.com/Friezer-85/Install-MikroTik-CHR-on-VPS/main/elseif.sh)"
